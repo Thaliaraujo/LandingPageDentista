@@ -36,10 +36,11 @@
 
 .banner__content__links{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
+    padding-top: 2rem;
     width: 100%;
 }
 
@@ -54,3 +55,42 @@
     font-size: 0.8rem;
     font-weight: 500;
 }
+
+@media screen and (min-width: 768px) {
+    .banner{
+        display: flex;
+        gap: 3rem;
+    }
+    .banner__image{
+        width: 40vw;
+        order: 2;
+    }
+
+    .banner__content{
+        margin-top: 3rem;
+        order: 1;
+    }
+
+    .banner__content h4{
+        font-size: 1rem;
+    }
+    
+    .banner__content h2{
+        font-weight: 700;
+    }
+    
+    .banner__content p{
+        font-weight: 300;
+        line-height: 1.5rem;
+    }
+    
+    .banner__content__links{
+        justify-content: space-around;
+    }
+    
+    .banner__content__links--button{
+        font-size: 1rem;
+    }
+}
+
+
