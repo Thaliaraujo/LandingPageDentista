@@ -1,0 +1,80 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    width: 25rem;
+    height: 7rem;
+    box-shadow: 0px 1px 10px 0px rgba(102, 102, 102, 0.15);
+}
+
+.menu__text{
+    text-align: center;
+    gap: 0.7rem;
+}
+
+.menu__text h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.menu__text h3{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.menu__container{
+    display: flex;
+    align-items: center;
+}
+
+.menu__container--input{
+    display: none;
+}
+
+.menu__container--input:checked ~ .menu__container--label > .menu__container--span {
+    background-image: url("../image/menuDropdownBranco.svg");
+}
+
+.menu__container--input:checked ~ .menu__container--label{
+    background: var(--gradient-blue);
+}
+
+.menu__container--input:checked~.menu__container__list{
+    display: block;
+}
+
+.menu__container--span{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url("../image/menuDropdown.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container--image{
+    padding: 1em;
+}
+
+.menu__container__list{
+    display: none;
+    position: absolute;
+    top: 10%;
+    width: 60vw;
+}
+
+.menu__container__list--item{
+    padding: 1rem 0;
+    background-color: var(--white);
+}
+
+.menu__container__list--link{
+    background: var(--gradient-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}

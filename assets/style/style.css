@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+@import url(./header.css);
+
+:root {
+    --primarySource: "Poppins";
+    --mainBackground: ##FFF9FD;
+    --black: #000000;
+    --white: #FFFFFF;
+    --gradient-blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+}
+
+body{
+    background-color: var(--mainBackground);
+    color: var(--black);
+    font-family: var(--primarySource);
+    font-size: 1rem;
+    font-weight: 400;
+};
