@@ -3,6 +3,7 @@
 @import url(./banner.css);
 @import url(./services.css);
 @import url(./Testimonials.css);
+@import url(./aboutMe.css);
 
 :root {
     --primarySource: "Poppins";
@@ -13,6 +14,7 @@
     --blue: #2977D5;
     --dark-blue: #00296D;
     --box-shadow: #D4E4F4;
+    --background-abouMe: #D4E4F4;
     --background-services: rgba(255, 249, 253, 0.60);
     --gradient-blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 }

@@ -1,0 +1,59 @@
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 3.75rem 1.25rem;
+    width: 100vw;
+    background-color: var(--background-abouMe);
+} 
+
+.aboutMe img {
+    width: 80vw;
+    max-width: 400px;
+}
+
+.aboutMe h4{
+    color: var(--light-blue);
+    font-size: 0.8rem;
+}
+
+.aboutMe h2{
+    color: var(--dark-blue);
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 5px 5px 0px var(--box-shadow);
+    margin: 2rem 0;
+}
+
+.aboutMe li{
+    margin-bottom: 1rem;
+    color: var(--black);
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 1400px) {
+    .aboutMe{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 3rem;
+    } 
+    
+   .aboutMe img {
+        width: 40vw;
+        max-width: 600px;
+    }
+    
+     .aboutMe h4{
+        font-size: 1rem;
+    }
+    
+   .aboutMe h2{
+        font-size: 3rem;
+    }
+
+    .aboutMe li{
+        font-size: 1rem;
+    }
+}
