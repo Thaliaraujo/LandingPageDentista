@@ -1,0 +1,36 @@
+.clinic{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+    gap: 2rem;
+    /* background-image: url(../image/vector2.png);
+    background-repeat: no-repeat;
+    background-position: center right; */
+}
+
+.clinic h2{
+    color: var(--dark-blue);
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 5px 5px 0px var(--box-shadow);
+}
+
+.clinic__image{
+    width: 90vw;
+}
+
+@media screen and (min-width: 1400px) {
+    .clinic{
+        padding: 10rem 0;
+        background-image: url(../image/vector2.png);
+        background-repeat: no-repeat;
+        background-position: top right; 
+    }
+
+    .clinic h2{
+        font-size: 4rem;
+    }
+}
+
