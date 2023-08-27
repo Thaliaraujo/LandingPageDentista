@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
 @import url(./header.css);
 @import url(./banner.css);
+@import url(./services.css);
+@import url(./Testimonials.css);
 
 :root {
     --primarySource: "Poppins";
     --mainBackground: ##FFF9FD;
     --black: #000000;
     --white: #FFFFFF;
-    --blue: #44C6E9;
+    --light-blue: #44C6E9;
+    --blue: #2977D5;
     --dark-blue: #00296D;
+    --box-shadow: #D4E4F4;
+    --background-services: rgba(255, 249, 253, 0.60);
     --gradient-blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 }
 
