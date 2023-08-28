@@ -149,7 +149,7 @@
 
             <section class="aboutMe">
                 <img src="./assets/image/dra.png" alt="Doutora Patricia">
-                    <div>
+                <div class="aboutMe__content">
                         <h4>Sobre Mim</h4>
                         <h2>Dra. Patricia Nieves</h2>
                         <ul>
@@ -177,11 +177,68 @@
                 <img class="clinic__image" src=".//assets/image/clinica.png" alt="Nossa Clínica">
                 <img src="./assets/image/vector.png">
             </section>
-
         </main>
 
         <footer class="footer">
+            <section class="contact">
+                <h2>Contato</h2>
+                <div class="contact__form">
+                    <form class="contact__form__item">
+                        <h3>Entre em contato conosco para marcar uma consulta.</h3>
+                        <div>
+                            <label for="name"></label>
+                            <input class="contact__form__link" type="text" maxlength="50" required placeholder="Seu Nome">
+                        </div>
 
+                        <div>
+                            <label for="email"></label>
+                            <input class="contact__form__link" type="email" required placeholder="Seu E-mail">
+                        </div>
+
+                        <div>
+                            <label for="topic"></label>
+                            <input class="contact__form__link" type="text"  maxlength="50" placeholder="Assunto">
+                        </div>
+
+                        <div>
+                            <label for="textArea"></label>
+                            <textarea class="contact__form__link" type="text" required maxlength="500"  placeholder="Mensagem"></textarea>
+                        </div>
+
+                        <div>
+                            <button class="contact__form__button" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>   
+                
+                <!-- <div class="contact__container">
+                    <h2 class="contact__container__title">Vamos conversar<br> sobre algo <strong>legal</strong> <br>juntos?</h2>
+                    <div class="contact__content">
+                        <email class="contact__content__email">thalia.araujo321@gmail.com</email>
+                        <ul class="contact__content__list">
+                            <li>
+                                <a class="contact__content__links" href="https://github.com/Thaliaraujo" target="_blank">
+                                    <img class="contact__content__image" src="./assets/github.svg" alt="Logo GitHub">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="contact__content__links" href="https://www.linkedin.com/in/thal%C3%ADa-ara%C3%BAjo/" target="_blank">
+                                    <img class="contact__content__image" src="./assets/linkedin.svg" alt="Logo Linkedin">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="contact__content__links" href="https://www.instagram.com/liia_araujo/" target="_blank">
+                                    <img class="contact__content__image" src="./assets/instagram.svg" alt="Logo Instagram">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> -->
+            </section>
+            <!-- <div>
+                <p class="footer__text">Desenvolvido por Thalía Araújo</p>
+                <p class="footer__text">2023</p>
+            </div> -->
         </footer>
     </body>
 </html>

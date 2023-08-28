@@ -5,6 +5,7 @@
 @import url(./Testimonials.css);
 @import url(./aboutMe.css);
 @import url(./clinic.css);
+@import url(form.css);
 
 :root {
     --primarySource: "Poppins";
@@ -17,6 +18,7 @@
     --box-shadow: #D4E4F4;
     --background-abouMe: #D4E4F4;
     --background-services: rgba(255, 249, 253, 0.60);
+    --gradient: linear-gradient(45deg, rgba(37, 37, 37, 0.21) 0%, rgba(68, 198, 233, 0.35) 100%);
     --gradient-blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 }
 
