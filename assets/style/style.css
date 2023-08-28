@@ -5,7 +5,7 @@
 @import url(./Testimonials.css);
 @import url(./aboutMe.css);
 @import url(./clinic.css);
-@import url(form.css);
+@import url(./contact.css);
 
 :root {
     --primarySource: "Poppins";

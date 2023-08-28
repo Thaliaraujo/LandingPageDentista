@@ -1,0 +1,211 @@
+.footer{
+    width: 100vw;
+    background-image: var(--gradient);
+}
+
+.footer h2{
+    color: var(--dark-blue);
+    text-shadow: 5px 5px 0px var(box-shadow);
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: right;
+    padding: 2rem;
+}
+
+.contact{
+    width: 100vw;
+}
+
+.contact__form__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 1.25rem;
+    gap: 2.5rem;    
+}
+
+.contact__form__item h3{
+    color: #FFF9FD;
+    font-size: 1.25rem;
+}
+
+.contact__form__link{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #FFF9FD;
+    width: 80vw;
+}
+
+.contact__form__link::placeholder{
+    color: #FFF9FD;
+    font-family: var(primarySource);
+    font-size: 0.7rem;
+}
+
+.contact__form__button{
+    background-color: #FFF9FD;
+    font-family: var(--primarySource);
+    font-size: 0.9rem;
+    color: var(--dark-blue);
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.5rem 5rem;
+}
+
+.contact__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.contact__content__item{
+    flex-shrink: 0;
+    text-align: center;
+    border-bottom: 2px solid var(--box-shadow);
+}
+
+.contact__content__item--email,
+.contact__content__item--phone,
+.contact__content__item--location{
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 1.5rem;
+    padding: 2rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.contact__content__item--email{
+    background-image: url(../image/email.svg);
+}
+
+.contact__content__item--phone{
+    background-image: url(../image/cel.png);
+}
+
+.contact__content__item--location{
+    background-image: url(../image/location.svg);
+}
+
+
+.contact__content__item email, p, address {
+    font-size: 0.8rem;
+}
+
+.contact__content__list{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 3rem 0;
+}
+
+.contact__content__list img{
+    width: 1.5rem;
+}
+
+.footer__text{
+    padding: 5rem 0;
+}
+
+.footer__text p{
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .contact__form__item h3{
+        font-size: 1.5rem;
+    }
+    
+    .contact__form__link::placeholder{
+        font-size: 1rem;
+    }
+    
+    .contact__form__button{
+        font-size: 1rem;
+        padding: 0.5rem 7rem;
+    }
+
+    .contact__content__item--email,
+    .contact__content__item--phone,
+    .contact__content__item--location{
+        font-size: 1.5rem;
+    }
+
+    .contact__content__item email, p, address {
+        font-size: 1rem;
+    }
+
+    .contact__content__list img{
+        width: 2rem;
+    }
+
+    .footer__text{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .footer h2{
+        font-size: 4rem;
+    }
+
+    .contact{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100vw;
+        gap: 2rem;
+    }
+
+    .contact__form{
+        width: 40vw;
+        order: 2;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .contact__form__item{
+        box-sizing: border-box;
+    }
+
+    .contact__form__item h3{
+        font-size: 2rem;
+    }
+    
+    .contact__form__link{
+        padding: 1rem 0;
+        width: 40rem;
+    }
+
+    .contact__form__link::placeholder{
+        font-size: 1.5rem;
+    }
+    
+    .contact__form__button{
+        font-size: 1.5rem;
+    }
+
+    .contact__container{
+        width: 40vw;
+        order: 1;
+    }
+
+    .contact__content__item--email,
+    .contact__content__item--phone,
+    .contact__content__item--location{
+        font-size: 2rem;
+    }
+
+    .contact__content__item email, p, address {
+        font-size: 1.5rem;
+    }
+
+    .footer__text p{
+        font-size: 1.5rem;
+    }
+}
+  
